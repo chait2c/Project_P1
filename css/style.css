@@ -1,16 +1,15 @@
 body {
     background-color: #efefef;
-    font-family: 'Lato', sans-serif;
-    color: #747704;    
+    font-family: "Lato", sans-serif;
+    color: #747704;
 }
 
-.horizontal-rule  {
-    border-top: 2px solid #BCBBBB;
-    margin-bottom: 5px;
-    margin-top: 0;
+.horizontal-rule {
+    border-top: 2px solid #bcbbbb;
+    margin: 0 0 5px 0;
 }
 
-.img-hdr-size   {
+.img-hdr-size {
     height: 150px;
     width: 150px;
 }
@@ -22,7 +21,7 @@ body {
 
 .title-header {
     font-size: 50px;
-} 
+}
 
 .text-thinner {
     font-weight: 100;
@@ -33,7 +32,7 @@ body {
 }
 
 .text-lighter {
-    color: #BCBBBB;
+    color: #bcbbbb;
 }
 
 .text-main-body {
@@ -41,15 +40,16 @@ body {
 }
 
 @media (max-width: 600px) {
-.img-hdr-size   {
-    height: 150px;
-    width: 150px;
-}
-.title-header {
-    font-size: 36px;
-} 
+    .img-hdr-size {
+        height: 150px;
+        width: 150px;
+    }
 
-.text-dev-h3 {
-    font-size: 24px;
-}
+    .title-header {
+        font-size: 36px;
+    }
+
+    .text-dev-h3 {
+        font-size: 24px;
+    }
 }
